@@ -1,0 +1,573 @@
+/*
+Theme Name: mon_theme
+Theme URI: https://www.tutowp.fr/tutowp
+Author: Guillaume Franguiadakis
+Author URI: https://www.tutowp.fr/tutowp
+Description: Thème simple d'un site vitrine
+Version: 1.0
+*/
+
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2554px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Card du haut */
+.a {
+    height: 800px;
+    width: 1275px;
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+}
+
+#gauche {
+    height: 799px;
+    width: 450px;
+    background-color: black;
+}
+
+#droite{
+    background-image: url(assets/desktop/image-hero.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 82px;
+}
+
+#Modern{
+    height: 200px;
+    width: 700px;
+    /* background-color: yellow; */
+    position: absolute;
+    bottom: 429px;
+    left: 150px;
+}
+
+#title{
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+}
+
+.color{
+    color: white;
+}
+
+#subTitle{
+    color: rgb(131, 131, 131);
+    line-height: 32px;
+    font-size: 24px;
+}
+
+#texteButton{
+    position: absolute;
+    /* background-color: yellow; */
+    font-size: 22px;
+    width: 350px;
+    bottom: 466px;
+    right: -0px;
+    display:flex;
+    justify-content: center;
+}
+
+#button{
+    position: absolute;
+    width: 260px;
+    height: 72px;
+    /* border: 1px solid red; */
+    right: 92px;
+    bottom: 300px;
+    display: flex;
+    cursor: pointer;
+}
+
+#isLocation{
+    background-color: black;
+    width: 204px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#isLocation:hover{
+    background-color: white;
+}
+
+#isTitle{
+    color: white;
+    font-weight: 800;
+    line-height: 23.94px;
+    user-select: none;
+}
+
+#isTitle:hover{
+    color:black;
+}
+
+#fleche{
+    width: 56px;
+    height: 100%;
+    background-color: goldenrod;
+    background-image: url(assets/desktop/Path\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Card du bas */
+.b {
+    height: 1150px;
+    width: 1110px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#day {
+    height: 280px;
+    width: 350px;
+    /* border: 1px solid black; */
+    position: relative;
+    margin-top: 65px;
+}
+
+#titre{
+    width: 100%;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+#texte{
+    width: 100%;
+    /* border: 1px solid greenyellow; */
+    position: absolute;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgb(131, 131, 131);
+}
+
+#image1 {
+    height: 400px;
+    width: 635px;
+    background-image: url(assets/desktop/image-grid-1.jpg);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#troisimages{
+    /* border: 1px solid black;  */
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 720px;
+}
+
+#image2 {
+    height: 720px;
+    width: 635px;
+    background-image: url(assets/desktop/image-grid-2.jpg);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#image3 {
+    height: 313px;
+    width: 445px;
+    background-image: url(assets/desktop/image-grid-3.jpg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+} 
+
+#image4 {
+    height: 377px;
+    width: 445px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+} 
+
+#case{
+    height: 248px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+#title2{
+    width: 100%;
+    height: 120px;
+    color: white;
+    font-size: 45px;
+    /* border: 1px solid white; */
+}
+
+#subTitle2{
+    color: white;
+    width: 100%;
+    height: 96px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    font-size: 22px;
+    line-height: 32px;
+}
+
+#foot{
+    width: 100%;
+    height: 244px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ModernFoot{
+    /* border: 2px solid white; */
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#footcase{
+    /* border: 1px solid red; */
+    width: 730px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Foottitle{
+    color: white;
+    /* border: 1px solid white; */
+    width: 159.57px;
+    height: 58px;
+    font-size: 24px;
+}
+
+#Footsubtitle{
+    color: white;
+    width: 430px;
+    /* border: 1px solid rgb(0, 153, 255); */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#icons{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#facebook{
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icon-facebook.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#instagram{
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icon-instagram.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#twitter{
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icon-twitter.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Responsive à 768 px: (taille intermédiare : tablette)  */
+
+@media only screen and (max-width: 769px){
+
+    .a{
+        width: 98%;
+        height: 728px;
+        border: 1px solid red;
+
+    }
+    #gauche {
+        display: none;
+    }
+    #droite{
+        width: 437px;
+        height: 700px;
+        left: auto;
+        top: 0;
+    }
+    #Modern{
+        width: 350px;
+        height: 130px;
+        /* border: 1px solid black; */
+        position :absolute;
+        left: 376px;
+        top: 120px;
+        
+    }
+    #title{
+        font-size: 48px;
+        line-height: normal;
+        color: black;
+    }
+    .color{
+        color: black;
+    }
+    #subTitle{
+        color: black;
+        font-size: 18px;
+        /* border: 1px solid black; */
+        width: 339px;
+        height: 112px;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+    }
+
+    .b {
+        width: 689px;
+        height: 1131px;
+    }
+    #day{
+        width: 223px;
+        height: 299px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+        margin-top: 40px;
+    }
+    #titre{
+        font-size: 40px;
+        line-height: normal;
+    }
+    #texte{
+        font-size: 18px;
+        text-align: justify;
+        line-height: 28px;
+    }
+    #image1{
+        width: 398px;
+        height: 400px;
+    }
+    #troisimages{
+        width: 100%;
+        height: 720px;
+    }
+    #image2 {
+        width: 398px;
+        height: 720px;
+        background-image: url(assets/tablet/image-grid-2.jpg);
+    }
+    #image3 {
+        width: 280px;
+        height: 313px;
+        background-image: url(assets/tablet/image-grid-3.jpg);
+    }
+    #image4 {
+        width: 280px;
+        height: 396px;
+    }
+    #case{
+        width: 223px;
+        height: 226px;
+    }
+    #title2{
+        font-size: 38px;
+        font-weight: bold;
+    }
+    #subTitle2{
+        font-size: 18px;
+    }
+    /* Footer: */
+    #foot{
+        width: 100%;
+    }
+    #ModernFoot{
+        width: 92%;
+        height: 104px;
+        /* border: 2px solid white; */
+
+    }
+    #footcase{
+        width: 500px;
+        /* border: 1px solid white; */
+    }
+    #Foottitle{
+        width: 170px;
+        height: 100%;
+        font-size: 20px;
+        /* border: 1px solid white; */
+    }
+    #Footsubtitle{
+        font-size: 16px;
+        width: 281px;
+    }
+    #button{
+        right: 86px;
+        bottom: 165px;
+    }
+
+}
+/* Responsive pour les smartphones : */
+@media only screen and (max-width: 376px){
+
+    body{
+        display: flex;
+        justify-content: space-between;
+    }
+    .a{
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 630px;
+    }
+    #droite{
+        width: 375px;
+        height: 240px;
+        /* border: 1px solid black; */
+        background-image: url(assets/mobile/image-hero.jpg);
+        background-size: cover;
+        position: static;
+    }
+    #Modern{
+        top: 250px;
+        left: 20px;
+        /* border: 1px solid violet; */
+    }
+    #title{
+        font-weight: 900;
+        font-size: 47px;
+        line-height: normal;
+    }
+    #texteButton{
+        bottom: 300px;
+    }
+    #button{
+        bottom: 30px;
+    }
+    .b{
+        height: 1605px;
+        width: 343px;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+    }
+    #day{
+        /* border: 4px solid black; */
+        width: 343px;
+        height: 850px;
+    }
+    #image1{
+        width: 343px;
+        height: 320px;
+        /* border: 1px solid violet; */
+        background-image: url(assets/mobile/image-grid-1.jpg);
+    }
+    #titre{
+        position: absolute;
+        top: 300px;
+        /* border: 1px solid black; */
+        left: 0;
+        font-size: 37px;
+        height: 90px;
+    }
+    #texte{
+        top: 400px;
+        left: 0;
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 112px;
+    }
+    #troisimages{
+        /* border: 3px solid blue; */
+        height: 100%;
+    }
+    #image2{
+        width: 100%;
+        height: 480px;
+        top: 0;
+        background-image: url(assets/mobile/image-grid-2.jpg);
+    }
+    #image3{
+        width: 100%;
+        height: 200px;
+        top: 500px;
+        background-image: url(assets/mobile/image-grid-3.jpg);
+    }
+    #image4{
+        width: 100%;
+        height: 293px;
+    }
+    #foot{
+        width: 100%;
+        height: 250px;
+    }
+    #ModernFoot{
+        width: 311px;
+        height: 240px;
+        flex-direction: column;
+    }
+    #footcase{
+        /* border : 1px solid white; */
+        width: 311px;
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    #Foottitle{
+        /* border: 1px solid red; */
+        height: 40px;
+        margin-top: 15px;
+    }
+    #Footsubtitle{
+        /* border: 1px solid pink; */
+        height: 104px;
+        width: 100%;
+    }
+    #icons{
+        /* border: 1px solid green; */
+        margin-top: 10px;
+    }
+
+}
