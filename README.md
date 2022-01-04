@@ -10,7 +10,7 @@ PS : Utilisation de php pour l'index et le footer.
 
 Si vous souhaitez visiter ce site web : 
 
-Enjoy ! :simple_smile:
+Enjoy ! : :smile:
 
 http://s895373481.onlinehome.fr/index.html
 
