@@ -3,7 +3,7 @@
 Le challenge était de faire un site vitrine à partir d'un thème vierge sur wordpress. 
 
 Pour ce faire, j'ai utilisé FileZilla afin d'accéder aux dossiers du site wordpress et particulièrement au dossier thèmes.
-A partir, de ce dossier j'ai créer un nouveau thème puis j'ai coder from scratch.
+A partir, de ce dossier j'ai créer un nouveau thème puis j'ai coder (HTML/CSS/PHP) from scratch.
 Le site fonctionne donc à partir de Wordpress.
 
 PS : Utilisation de php pour l'index et le footer. 
