@@ -6,7 +6,7 @@ Pour ce faire, j'ai utilisé FileZilla afin d'accéder aux dossiers du site word
 A partir, de ce dossier j'ai créer un nouveau thème puis j'ai coder from scratch.
 Le site fonctionne donc à partir de Wordpress.
 
-PS : Légère utilisation de php pour l'index et le footer. 
+PS : Utilisation de php pour l'index et le footer. 
 
 Si vous souhaitez visiter ce site web : 
 
