@@ -8,3 +8,8 @@ Voici un site vitrine d'un musée d'art au Etats-Unis : (version Desktop)
 
 ![Screenshot](ModernG.gif)
 
+
+Version Tablette : (à partir de 768px )
+
+![Screenshot](ModernGT.gif)
+
